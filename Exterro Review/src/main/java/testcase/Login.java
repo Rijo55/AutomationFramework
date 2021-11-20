@@ -21,6 +21,7 @@ public class Login extends BaseClass
 	{	
 		Reporter.log("Test is about to Start", true);
 		
+		
 		logger=report.createTest("Login to Exterro");
 			
 			Login_Page lpage=PageFactory.initElements(driver, Login_Page.class);
