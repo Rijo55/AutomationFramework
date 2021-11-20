@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class Test2
 {
-	@Test
+	//@Test
 	public void iframe() throws Exception
 	{
 		
