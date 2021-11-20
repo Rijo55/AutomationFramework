@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Excel/Config file & Reports are setting up]]>
+    </line>
+    <line>
+      <![CDATA[Excel/Config file & Reports set up completed]]>
+    </line>
+    <line>
+      <![CDATA[Starting the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser & App URL is up]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to Start]]>
+    </line>
+    <line>
+      <![CDATA[Generating Reports & Screenshots]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-11-20T12:10:20 IST" name="Default suite" finished-at="2021-11-20T12:10:43 IST" duration-ms="22782">
+    <groups>
+    </groups>
+    <test started-at="2021-11-20T12:10:20 IST" name="Default test" finished-at="2021-11-20T12:10:43 IST" duration-ms="22782">
+      <class name="testcase.Login">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:testcase.Login@63611043]" started-at="2021-11-20T12:10:20 IST" name="setupSuite" finished-at="2021-11-20T12:10:20 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Excel/Config file & Reports are setting up]]>
+            </line>
+            <line>
+              <![CDATA[Excel/Config file & Reports set up completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Login@63611043]" started-at="2021-11-20T12:10:20 IST" name="setup" finished-at="2021-11-20T12:10:27 IST" duration-ms="7668" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting the Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser & App URL is up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testcase.Login@63611043]" started-at="2021-11-20T12:10:28 IST" name="login" finished-at="2021-11-20T12:10:42 IST" duration-ms="14235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to Start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDownScreenshot(org.testng.ITestResult)[pri:0, instance:testcase.Login@63611043]" started-at="2021-11-20T12:10:42 IST" name="tearDownScreenshot" finished-at="2021-11-20T12:10:42 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:testcase.Login@63611043] output=Test is about to Start]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Generating Reports & Screenshots]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.Login@63611043]" started-at="2021-11-20T12:10:42 IST" name="tearDown" finished-at="2021-11-20T12:10:43 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
